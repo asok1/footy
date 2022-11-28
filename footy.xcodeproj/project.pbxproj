@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB91E71D29357C300017122D /* footyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E71C29357C300017122D /* footyApp.swift */; };
+		FB91E71F29357C300017122D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E71E29357C300017122D /* ContentView.swift */; };
+		FB91E72129357C310017122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91E72029357C310017122D /* Assets.xcassets */; };
+		FB91E72429357C310017122D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91E72329357C310017122D /* Preview Assets.xcassets */; };
+		FB91E72E29357C310017122D /* footyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E72D29357C310017122D /* footyTests.swift */; };
+		FB91E73829357C310017122D /* footyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E73729357C310017122D /* footyUITests.swift */; };
+		FB91E73A29357C310017122D /* footyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E73929357C310017122D /* footyUITestsLaunchTests.swift */; };
+		FB91E74029357C310017122D /* footy Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FB91E73F29357C310017122D /* footy Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB91E74529357C310017122D /* footyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E74429357C310017122D /* footyApp.swift */; };
+		FB91E74729357C310017122D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E74629357C310017122D /* ContentView.swift */; };
+		FB91E74929357C320017122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91E74829357C320017122D /* Assets.xcassets */; };
+		FB91E74C29357C320017122D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91E74B29357C320017122D /* Preview Assets.xcassets */; };
+		FB91E75629357C320017122D /* footy_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E75529357C320017122D /* footy_Watch_AppTests.swift */; };
+		FB91E76029357C320017122D /* footy_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E75F29357C320017122D /* footy_Watch_AppUITests.swift */; };
+		FB91E76229357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E76129357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB91E72A29357C310017122D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91E71129357C300017122D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91E71829357C300017122D;
+			remoteInfo = footy;
+		};
+		FB91E73429357C310017122D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91E71129357C300017122D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91E71829357C300017122D;
+			remoteInfo = footy;
+		};
+		FB91E74129357C310017122D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91E71129357C300017122D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91E73E29357C310017122D;
+			remoteInfo = "footy Watch App";
+		};
+		FB91E75229357C320017122D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91E71129357C300017122D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91E73E29357C310017122D;
+			remoteInfo = "footy Watch App";
+		};
+		FB91E75C29357C320017122D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91E71129357C300017122D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91E73E29357C310017122D;
+			remoteInfo = "footy Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB91E76829357C320017122D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FB91E74029357C310017122D /* footy Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB91E71929357C300017122D /* footy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E71C29357C300017122D /* footyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footyApp.swift; sourceTree = "<group>"; };
+		FB91E71E29357C300017122D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB91E72029357C310017122D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB91E72329357C310017122D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB91E72929357C310017122D /* footyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E72D29357C310017122D /* footyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footyTests.swift; sourceTree = "<group>"; };
+		FB91E73329357C310017122D /* footyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E73729357C310017122D /* footyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footyUITests.swift; sourceTree = "<group>"; };
+		FB91E73929357C310017122D /* footyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB91E73F29357C310017122D /* footy Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "footy Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E74429357C310017122D /* footyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footyApp.swift; sourceTree = "<group>"; };
+		FB91E74629357C310017122D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB91E74829357C320017122D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB91E74B29357C320017122D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB91E75129357C320017122D /* footy Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "footy Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E75529357C320017122D /* footy_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footy_Watch_AppTests.swift; sourceTree = "<group>"; };
+		FB91E75B29357C320017122D /* footy Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "footy Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91E75F29357C320017122D /* footy_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footy_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		FB91E76129357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footy_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB91E71629357C300017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E72629357C310017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E73029357C310017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E73C29357C310017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E74E29357C320017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E75829357C320017122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB91E71029357C300017122D = {
+			isa = PBXGroup;
+			children = (
+				FB91E71B29357C300017122D /* footy */,
+				FB91E72C29357C310017122D /* footyTests */,
+				FB91E73629357C310017122D /* footyUITests */,
+				FB91E74329357C310017122D /* footy Watch App */,
+				FB91E75429357C320017122D /* footy Watch AppTests */,
+				FB91E75E29357C320017122D /* footy Watch AppUITests */,
+				FB91E71A29357C300017122D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB91E71A29357C300017122D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E71929357C300017122D /* footy.app */,
+				FB91E72929357C310017122D /* footyTests.xctest */,
+				FB91E73329357C310017122D /* footyUITests.xctest */,
+				FB91E73F29357C310017122D /* footy Watch App.app */,
+				FB91E75129357C320017122D /* footy Watch AppTests.xctest */,
+				FB91E75B29357C320017122D /* footy Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB91E71B29357C300017122D /* footy */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E71C29357C300017122D /* footyApp.swift */,
+				FB91E71E29357C300017122D /* ContentView.swift */,
+				FB91E72029357C310017122D /* Assets.xcassets */,
+				FB91E72229357C310017122D /* Preview Content */,
+			);
+			path = footy;
+			sourceTree = "<group>";
+		};
+		FB91E72229357C310017122D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E72329357C310017122D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB91E72C29357C310017122D /* footyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E72D29357C310017122D /* footyTests.swift */,
+			);
+			path = footyTests;
+			sourceTree = "<group>";
+		};
+		FB91E73629357C310017122D /* footyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E73729357C310017122D /* footyUITests.swift */,
+				FB91E73929357C310017122D /* footyUITestsLaunchTests.swift */,
+			);
+			path = footyUITests;
+			sourceTree = "<group>";
+		};
+		FB91E74329357C310017122D /* footy Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E74429357C310017122D /* footyApp.swift */,
+				FB91E74629357C310017122D /* ContentView.swift */,
+				FB91E74829357C320017122D /* Assets.xcassets */,
+				FB91E74A29357C320017122D /* Preview Content */,
+			);
+			path = "footy Watch App";
+			sourceTree = "<group>";
+		};
+		FB91E74A29357C320017122D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E74B29357C320017122D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FB91E75429357C320017122D /* footy Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E75529357C320017122D /* footy_Watch_AppTests.swift */,
+			);
+			path = "footy Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FB91E75E29357C320017122D /* footy Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91E75F29357C320017122D /* footy_Watch_AppUITests.swift */,
+				FB91E76129357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "footy Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB91E71829357C300017122D /* footy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E76929357C320017122D /* Build configuration list for PBXNativeTarget "footy" */;
+			buildPhases = (
+				FB91E71529357C300017122D /* Sources */,
+				FB91E71629357C300017122D /* Frameworks */,
+				FB91E71729357C300017122D /* Resources */,
+				FB91E76829357C320017122D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91E74229357C310017122D /* PBXTargetDependency */,
+			);
+			name = footy;
+			productName = footy;
+			productReference = FB91E71929357C300017122D /* footy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB91E72829357C310017122D /* footyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E76C29357C320017122D /* Build configuration list for PBXNativeTarget "footyTests" */;
+			buildPhases = (
+				FB91E72529357C310017122D /* Sources */,
+				FB91E72629357C310017122D /* Frameworks */,
+				FB91E72729357C310017122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91E72B29357C310017122D /* PBXTargetDependency */,
+			);
+			name = footyTests;
+			productName = footyTests;
+			productReference = FB91E72929357C310017122D /* footyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB91E73229357C310017122D /* footyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E76F29357C320017122D /* Build configuration list for PBXNativeTarget "footyUITests" */;
+			buildPhases = (
+				FB91E72F29357C310017122D /* Sources */,
+				FB91E73029357C310017122D /* Frameworks */,
+				FB91E73129357C310017122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91E73529357C310017122D /* PBXTargetDependency */,
+			);
+			name = footyUITests;
+			productName = footyUITests;
+			productReference = FB91E73329357C310017122D /* footyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB91E73E29357C310017122D /* footy Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E76529357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch App" */;
+			buildPhases = (
+				FB91E73B29357C310017122D /* Sources */,
+				FB91E73C29357C310017122D /* Frameworks */,
+				FB91E73D29357C310017122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "footy Watch App";
+			productName = "footy Watch App";
+			productReference = FB91E73F29357C310017122D /* footy Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB91E75029357C320017122D /* footy Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E77229357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch AppTests" */;
+			buildPhases = (
+				FB91E74D29357C320017122D /* Sources */,
+				FB91E74E29357C320017122D /* Frameworks */,
+				FB91E74F29357C320017122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91E75329357C320017122D /* PBXTargetDependency */,
+			);
+			name = "footy Watch AppTests";
+			productName = "footy Watch AppTests";
+			productReference = FB91E75129357C320017122D /* footy Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB91E75A29357C320017122D /* footy Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91E77529357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch AppUITests" */;
+			buildPhases = (
+				FB91E75729357C320017122D /* Sources */,
+				FB91E75829357C320017122D /* Frameworks */,
+				FB91E75929357C320017122D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91E75D29357C320017122D /* PBXTargetDependency */,
+			);
+			name = "footy Watch AppUITests";
+			productName = "footy Watch AppUITests";
+			productReference = FB91E75B29357C320017122D /* footy Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB91E71129357C300017122D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FB91E71829357C300017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FB91E72829357C310017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB91E71829357C300017122D;
+					};
+					FB91E73229357C310017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB91E71829357C300017122D;
+					};
+					FB91E73E29357C310017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FB91E75029357C320017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB91E73E29357C310017122D;
+					};
+					FB91E75A29357C320017122D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FB91E73E29357C310017122D;
+					};
+				};
+			};
+			buildConfigurationList = FB91E71429357C300017122D /* Build configuration list for PBXProject "footy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB91E71029357C300017122D;
+			productRefGroup = FB91E71A29357C300017122D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB91E71829357C300017122D /* footy */,
+				FB91E72829357C310017122D /* footyTests */,
+				FB91E73229357C310017122D /* footyUITests */,
+				FB91E73E29357C310017122D /* footy Watch App */,
+				FB91E75029357C320017122D /* footy Watch AppTests */,
+				FB91E75A29357C320017122D /* footy Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB91E71729357C300017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E72429357C310017122D /* Preview Assets.xcassets in Resources */,
+				FB91E72129357C310017122D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E72729357C310017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E73129357C310017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E73D29357C310017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E74C29357C320017122D /* Preview Assets.xcassets in Resources */,
+				FB91E74929357C320017122D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E74F29357C320017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E75929357C320017122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB91E71529357C300017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E71F29357C300017122D /* ContentView.swift in Sources */,
+				FB91E71D29357C300017122D /* footyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E72529357C310017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E72E29357C310017122D /* footyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E72F29357C310017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E73A29357C310017122D /* footyUITestsLaunchTests.swift in Sources */,
+				FB91E73829357C310017122D /* footyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E73B29357C310017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E74729357C310017122D /* ContentView.swift in Sources */,
+				FB91E74529357C310017122D /* footyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E74D29357C320017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E75629357C320017122D /* footy_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91E75729357C320017122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91E76229357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift in Sources */,
+				FB91E76029357C320017122D /* footy_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB91E72B29357C310017122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91E71829357C300017122D /* footy */;
+			targetProxy = FB91E72A29357C310017122D /* PBXContainerItemProxy */;
+		};
+		FB91E73529357C310017122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91E71829357C300017122D /* footy */;
+			targetProxy = FB91E73429357C310017122D /* PBXContainerItemProxy */;
+		};
+		FB91E74229357C310017122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91E73E29357C310017122D /* footy Watch App */;
+			targetProxy = FB91E74129357C310017122D /* PBXContainerItemProxy */;
+		};
+		FB91E75329357C320017122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91E73E29357C310017122D /* footy Watch App */;
+			targetProxy = FB91E75229357C320017122D /* PBXContainerItemProxy */;
+		};
+		FB91E75D29357C320017122D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91E73E29357C310017122D /* footy Watch App */;
+			targetProxy = FB91E75C29357C320017122D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FB91E76329357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB91E76429357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FB91E76629357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"footy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = footy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sok.footy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FB91E76729357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"footy Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = footy;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sok.footy;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footy.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		FB91E76A29357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"footy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = footy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB91E76B29357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"footy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = footy;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB91E76D29357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/footy";
+			};
+			name = Debug;
+		};
+		FB91E76E29357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/footy";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB91E77029357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = footy;
+			};
+			name = Debug;
+		};
+		FB91E77129357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sok.footyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = footy;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB91E77329357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sok.footy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/footy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FB91E77429357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sok.footy-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footy Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/footy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		FB91E77629357C320017122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sok.footy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "footy Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FB91E77729357C320017122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C43BH5G5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sok.footy-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "footy Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB91E71429357C300017122D /* Build configuration list for PBXProject "footy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E76329357C320017122D /* Debug */,
+				FB91E76429357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E76529357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E76629357C320017122D /* Debug */,
+				FB91E76729357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E76929357C320017122D /* Build configuration list for PBXNativeTarget "footy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E76A29357C320017122D /* Debug */,
+				FB91E76B29357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E76C29357C320017122D /* Build configuration list for PBXNativeTarget "footyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E76D29357C320017122D /* Debug */,
+				FB91E76E29357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E76F29357C320017122D /* Build configuration list for PBXNativeTarget "footyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E77029357C320017122D /* Debug */,
+				FB91E77129357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E77229357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E77329357C320017122D /* Debug */,
+				FB91E77429357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91E77529357C320017122D /* Build configuration list for PBXNativeTarget "footy Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91E77629357C320017122D /* Debug */,
+				FB91E77729357C320017122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB91E71129357C300017122D /* Project object */;
+}
