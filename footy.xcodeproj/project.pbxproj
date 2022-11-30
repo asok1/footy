@@ -22,6 +22,8 @@
 		FB91E75629357C320017122D /* footy_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E75529357C320017122D /* footy_Watch_AppTests.swift */; };
 		FB91E76029357C320017122D /* footy_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E75F29357C320017122D /* footy_Watch_AppUITests.swift */; };
 		FB91E76229357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E76129357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift */; };
+		FBD7FF0029380C7300D0CAB8 /* GameSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7FEFF29380C7200D0CAB8 /* GameSessionView.swift */; };
+		FBD7FF0229380F8400D0CAB8 /* GameStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7FF0129380F8400D0CAB8 /* GameStatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,10 @@
 		FB91E75B29357C320017122D /* footy Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "footy Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB91E75F29357C320017122D /* footy_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footy_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		FB91E76129357C320017122D /* footy_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = footy_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBD7FEFD293717A300D0CAB8 /* footy Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "footy Watch App.entitlements"; sourceTree = "<group>"; };
+		FBD7FEFE2937187300D0CAB8 /* footy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = footy.entitlements; sourceTree = "<group>"; };
+		FBD7FEFF29380C7200D0CAB8 /* GameSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionView.swift; sourceTree = "<group>"; };
+		FBD7FF0129380F8400D0CAB8 /* GameStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +180,7 @@
 		FB91E71B29357C300017122D /* footy */ = {
 			isa = PBXGroup;
 			children = (
+				FBD7FEFE2937187300D0CAB8 /* footy.entitlements */,
 				FB91E71C29357C300017122D /* footyApp.swift */,
 				FB91E71E29357C300017122D /* ContentView.swift */,
 				FB91E72029357C310017122D /* Assets.xcassets */,
@@ -210,10 +217,13 @@
 		FB91E74329357C310017122D /* footy Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				FBD7FEFD293717A300D0CAB8 /* footy Watch App.entitlements */,
 				FB91E74429357C310017122D /* footyApp.swift */,
 				FB91E74629357C310017122D /* ContentView.swift */,
 				FB91E74829357C320017122D /* Assets.xcassets */,
 				FB91E74A29357C320017122D /* Preview Content */,
+				FBD7FEFF29380C7200D0CAB8 /* GameSessionView.swift */,
+				FBD7FF0129380F8400D0CAB8 /* GameStatsView.swift */,
 			);
 			path = "footy Watch App";
 			sourceTree = "<group>";
@@ -492,6 +502,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB91E74729357C310017122D /* ContentView.swift in Sources */,
+				FBD7FF0029380C7300D0CAB8 /* GameSessionView.swift in Sources */,
+				FBD7FF0229380F8400D0CAB8 /* GameStatsView.swift in Sources */,
 				FB91E74529357C310017122D /* footyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,6 +670,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "footy Watch App/footy Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"footy Watch App/Preview Content\"";
@@ -667,6 +680,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = footy;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sok.footy;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -688,6 +702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "footy Watch App/footy Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"footy Watch App/Preview Content\"";
@@ -697,6 +712,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = footy;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sok.footy;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -720,6 +736,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = footy/footy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"footy/Preview Content\"";
@@ -753,6 +770,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = footy/footy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"footy/Preview Content\"";
