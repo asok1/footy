@@ -10,13 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Image("player-icon-black")
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text("Welcome to Footy!")
+            Button("Start Game", action: startGame)
         }
         .padding()
     }
+}
+
+func startGame()  {
+    let _ = print("hi!")
 }
 
 struct ContentView_Previews: PreviewProvider {
